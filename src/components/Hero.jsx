@@ -1,5 +1,5 @@
 // import React from 'react'
-
+import heroImg from '../Img/hero.png'
 const Hero = () => {
     let list = {
         name: "Irfan khan",
@@ -27,6 +27,7 @@ const Hero = () => {
     
           </div>
           <div className="img flex items-center justify-center w-[500px] h-[60vh] ">
+              <img src={heroImg} alt="" />
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore voluptatibus placeat, corrupti eius nisi eligendi aliquid, vitae perferendis vel ipsam, ratione error blanditiis assumenda quaerat aspernatur? Veniam perspiciatis blanditiis aperiam?
 
           </div>

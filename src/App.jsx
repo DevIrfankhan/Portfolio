@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       {/* <NewNav /> */}
       <Hero />
-      <Project/>
+      {/* <Project/> */}
       
 
       <div className="h-screen flex justify-center items-center text-4xl">
