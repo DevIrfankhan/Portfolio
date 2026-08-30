@@ -2,11 +2,12 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
+   
     const [open, setOpen] = useState(false);
 
     return (
         <>
-            <nav className="bg-gray-900 text-white px-6 py-4 flex justify-between items-center">
+            <nav className="bg-gray-900 text-white px-6 py-4  z-50 flex justify-between items-center">
                 <h1 className="text-2xl font-bold">Irfan</h1>
 
                 {/* Desktop Menu */}
