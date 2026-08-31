@@ -8,14 +8,14 @@ const Navbar = () => {
     return (
         <>
             <nav className="bg-gray-900 text-white px-6 py-4  z-50 flex justify-between items-center">
-                <h1 className="text-2xl font-bold">Irfan</h1>
+                <h1 className="text-4xl font-bold font-poppins">Irfan Khan</h1>
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex gap-8">
-                    <li className="cursor-pointer hover:text-yellow-400">Home</li>
-                    <li className="cursor-pointer hover:text-yellow-400">About</li>
-                    <li className="cursor-pointer hover:text-yellow-400">Projects</li>
-                    <li className="cursor-pointer hover:text-yellow-400">Contact</li>
+                    <li className="cursor-pointer font-poppins hover:text-yellow-400">Home</li>
+                    <li className="cursor-pointer font-poppins hover:text-yellow-400">About</li>
+                    <li className="cursor-pointer font-poppins hover:text-yellow-400">Projects</li>
+                    <li className="cursor-pointer font-poppins hover:text-yellow-400">Contact</li>
                 </ul>
 
                 {/* Mobile Button */}

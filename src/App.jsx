@@ -2,7 +2,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
-// import Skills from "./components/Skills";
+import Skills from "./components/Skills";
 // import Contact from "./components/Contact";
 
 
@@ -15,6 +15,7 @@ function App() {
       <Hero />
       {/* <Skills /> */}
       <Project />
+      <Skills/>
      
       
     </>
