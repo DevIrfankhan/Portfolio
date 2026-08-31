@@ -15,25 +15,25 @@ const Skills = () => {
       {/* Skill list div */}
       <div className="flex flex-wrap items-center justify-evenly w-full mt-20  gap-20 p-10 ">
         {/* skill icon div */}
-        <div className=" flex items-center justify-start gap-10  shadow-lg rounded-2xl w-120 ">
+        <div className=" flex flex-col  md:flex-row   items-center justify-center gap-10  shadow-lg rounded-2xl w-120 ">
           <img src={html} alt="HTML" className="w-50" />
-          <h1  className="text-2xl font-poppins shadow-lg">HTML</h1>
+          <h1  className="text-2xl p-1.5 rounded-2xl font-poppins shadow-lg">HTML</h1>
         </div>
-        <div className=" flex items-center justify-start w-120  shadow-lg rounded-2xl gap-20">
+        <div className="  flex flex-col  md:flex-row  items-center justify-center w-120  shadow-lg rounded-2xl gap-20">
           <img src={css} alt="HTML" className="w-30" />
-          <h1  className="text-2xl font-poppins shadow-lg">CSS</h1>
+          <h1  className="text-2xl  p-1.5 rounded-2xlfont-poppins shadow-lg">CSS</h1>
         </div>
-        <div className=" flex items-center justify-start w-120  shadow-lg rounded-2xl gap-20">
-          <img src={js} alt="HTML" className="w-40" />
-          <h1  className="text-2xl font-poppins shadow-lg">JavaScript</h1>
+        <div className=" flex flex-col  md:flex-row  items-center justify-center w-120  shadow-lg rounded-2xl gap-20">
+          <img src={js} alt="HTML" className="w-40 rounded-2xl" />
+          <h1  className="text-2xl p-1.5 rounded-2xl font-poppins shadow-lg">JavaScript</h1>
         </div>
-        <div className=" flex items-center justify-start w-120  shadow-lg rounded-2xl gap-20">
+        <div className=" flex flex-col  md:flex-row   items-center justify-center w-120  shadow-lg rounded-2xl gap-20">
           <img src={tail} alt="HTML" className="w-50" />
-          <h1  className="text-2xl font-poppins shadow-lg">Tailwind</h1>
+          <h1  className="text-2xl p-1.5 rounded-2xl font-poppins shadow-lg">Tailwind</h1>
         </div>
-        <div className=" flex items-center justify-start w-120  shadow-lg rounded-2xl gap-20">
+        <div className=" flex flex-col  md:flex-row   items-center justify-center w-120  shadow-lg rounded-2xl gap-20">
           <img src={react} alt="HTML" className="w-50" />
-          <h1  className="text-2xl font-poppins shadow-lg">React</h1>
+          <h1  className="text-2xl p-1.5 rounded-2xl font-poppins shadow-lg">React.js</h1>
         </div>
       </div>
     </div>
