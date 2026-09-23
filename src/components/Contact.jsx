@@ -22,16 +22,28 @@ const Contact = () => {
         {/* box1 */}
         <div className="flex flex-col gap-2 items-start justify-center  h-full">
 
-          <span  className="  flex gap-2 font-poppins"> < Phone size={28}  className=" text-red-700"/> 9696255752</span>
-          <span  className="  flex gap-2 font-poppins" >< Mail size={28} className="text-yellow-300" /> irfankhanofficial140@gmail.com</span>
-          <span  className="  flex gap-2 font-poppins"> <MessageCircle size={28} className="text-green-700" />Whatsapp</span>
-          <span  className="  flex gap-2 font-poppins" > <MapPin size={28}  className="text-blue-700"/>New Hider Ganj Lucknow Utter Pradesh</span>
+          <span  className="  flex gap-2 font-poppins"> < Phone size={28}  className=" text-black-700"/> 9696255752</span>
+          <span  className="  flex gap-2 font-poppins" >< Mail size={28} className="text-black-300" /> irfankhanofficial140@gmail.com</span>
+          <span  className="  flex gap-2 font-poppins"> <MessageCircle size={28} className="text-black-700" />Whatsapp</span>
+          <span  className="  flex gap-2 font-poppins" > <MapPin size={28}  className="text-black-700"/>New Hider Ganj Lucknow Utter Pradesh</span>
         </div>
        
         {/* box2 */}
-        <div>
-          <button onClick={scrollTop}>top</button>
+        <div className="flex flex-col gap-2 items-start justify-center  h-full">
+          
+        <div  className="flex items-center justify-center gap-5" >
+         
+            <a href="https://github.com/DevIrfankhan"> <i className="fa-brands fa-github text-3xl">gitHub</i></a>
         </div>
+        <div  className="flex items-center justify-center gap-5" >
+          
+            <a href="https://github.com/DevIrfankhan">  <i className="fa-brands fa-square-linkedin text-3xl">Linkedin</i></a>
+        </div>
+        <div  className="flex items-center justify-center gap-5" >
+            
+            <a href="https://github.com/DevIrfankhan " ><i class="fa-brands fa-instagram text-3xl mx-5">Instagram</i></a>
+        </div>
+</div>
         {/* box3 */}
         <div>
           <button onClick={scrollTop} className="outline-0 border-0 cursor-pointer"> < ArrowUp size={28}/>top</button>
