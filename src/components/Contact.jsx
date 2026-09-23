@@ -1,12 +1,5 @@
 // import React from 'react'
-import {
-  Phone,
-  Mail,
-  MessageCircle,
-  MapPin,
-    ArrowUp 
 
-} from "lucide-react";
 const Contact = () => {
   const scrollTop = () => {
     window.scrollTo({
@@ -51,16 +44,17 @@ const Contact = () => {
         </div>
         <div  className="flex items-center justify-center gap-3.5 text-xl text-gray-400 " >
             <i className="fa-brands fa-square-linkedin text-3xl"></i>
-          <a href="https://github.com/DevIrfankhan">Linkedin</a>
+            <a href="https://www.linkedin.com/feed/">Linkedin</a>
         </div>
         <div  className="flex items-center justify-center gap-3.5 text-xl text-gray-400 " >
             <i class="fa-brands fa-instagram text-3xl"></i>
-          <a href="https://github.com/DevIrfankhan">Instagram</a>
+            <a href="https://www.instagram.com/irfan__k.h.a.n?stkn=cTF1b2xuNHdyMmts">Instagram</a>
         </div>
 </div>
         {/* box3 */}
         <div>
-          <button onClick={scrollTop} className="outline-0 border-0 cursor-pointer"> < ArrowUp size={28}/>top</button>
+          <i class="fa-solid fa-circle-arrow-up"></i>
+          <button onClick={scrollTop} className="outline-0 border-0 cursor-pointer"> top</button>
 
 
         </div>
