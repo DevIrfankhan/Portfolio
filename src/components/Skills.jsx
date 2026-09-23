@@ -26,13 +26,13 @@ const Skills = () => {
           <img src={css} alt="HTML" className="w-30" />
           <h1  className="text-2xl  p-1.5 rounded-2xlfont-poppins shadow-lg">CSS</h1>
         </div>
-        <div className=" flex flex-col  md:flex-row  items-center justify-center w-120  shadow-lg rounded-2xl gap-20">
-          <img src={js} alt="HTML" className="w-40 rounded-2xl" />
-          <h1  className="text-2xl p-1.5 rounded-2xl font-poppins shadow-lg">JavaScript</h1>
-        </div>
         <div className=" flex flex-col  md:flex-row   items-center justify-center w-120  shadow-lg rounded-2xl gap-20">
           <img src={tail} alt="HTML" className="w-50" />
           <h1  className="text-2xl p-1.5 rounded-2xl font-poppins shadow-lg">Tailwind</h1>
+        </div>
+        <div className=" flex flex-col  md:flex-row  items-center justify-center w-120  shadow-lg rounded-2xl gap-20">
+          <img src={js} alt="HTML" className="w-40 rounded-2xl" />
+          <h1  className="text-2xl p-1.5 rounded-2xl font-poppins shadow-lg">JavaScript</h1>
         </div>
         <div className=" flex flex-col  md:flex-row   items-center justify-center w-120  shadow-lg rounded-2xl gap-20">
           <img src={react} alt="HTML" className="w-50" />
