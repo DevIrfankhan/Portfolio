@@ -21,11 +21,25 @@ const Contact = () => {
 
         {/* box1 */}
         <div className="flex flex-col gap-2 items-start justify-center  h-full">
-
-          <span  className="  flex gap-2 font-poppins"> < Phone size={28}  className=" text-black-700"/> 9696255752</span>
-          <span  className="  flex gap-2 font-poppins" >< Mail size={28} className="text-black-300" /> irfankhanofficial140@gmail.com</span>
-          <span  className="  flex gap-2 font-poppins"> <MessageCircle size={28} className="text-black-700" />Whatsapp</span>
-          <span  className="  flex gap-2 font-poppins" > <MapPin size={28}  className="text-black-700"/>New Hider Ganj Lucknow Utter Pradesh</span>
+          <div className="flex items-center justify-center gap-3.5 text-xl text-gray-400 " >
+       
+          <i class="fa-solid fa-phone"></i>
+          <span  className="  flex gap-2 font-poppins"> 9696255752</span>
+          </div>
+          <div className="flex items-center justify-center gap-3.5 text-xl text-gray-400 " >
+            <i class="fa-solid fa-envelope"></i>
+          <span  className="  flex gap-2 font-poppins" > irfankhanofficial140@gmail.com</span>
+          </div>
+          <div className="flex items-center justify-center gap-3.5 text-xl text-gray-400 " >
+       
+            <i class="fa-brands fa-whatsapp"></i>
+          <span  className="  flex gap-2 font-poppins"> Whatsapp</span>
+          </div>
+          <div className="flex items-center justify-center gap-3.5 text-xl text-gray-400 " >
+       
+            <i class="fa-solid fa-location-crosshairs"></i>
+          <span  className="  flex gap-2 font-poppins" > New Hider Ganj Lucknow Utter Pradesh</span>
+          </div>
         </div>
        
         {/* box2 */}
