@@ -5,6 +5,7 @@ import css from '../Img/css.png'
 import js from '../Img/js.png'
 import tail from '../Img/tail.png'
 import react from '../Img/react.png'
+import node from  '../Img/nodejs.png'
 const Skills = () => {
   return (
     <div className="w-full min-h-screen bg-white">
@@ -44,7 +45,7 @@ const Skills = () => {
           <h1  className="text-2xl p-1.5 rounded-2xl font-poppins shadow-lg">React.js</h1>
         </div>
         <div className=" flex flex-col  md:flex-row   items-center justify-center w-120  shadow-lg rounded-2xl gap-20">
-          <img src={react} alt="HTML" className="w-50" />
+          <img src={node} alt="HTML" className="w-50" />
           <h1  className="text-2xl p-1.5 rounded-2xl font-poppins shadow-lg">React.js</h1>
         </div>
       </div>
