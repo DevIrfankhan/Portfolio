@@ -1,21 +1,21 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-const Navbar = ({ onHeroClick, onProjectClick ,onSkillsClick,onContactClick}) => {
-   
+const Navbar = ({ onHeroClick, onProjectClick, onSkillsClick, onContactClick }) => {
+
     const [open, setOpen] = useState(false);
 
     return (
         <>
             <nav className="bg-gray-900 text-white px-6 py-4  z-50 flex justify-between items-center">
-                <h1 className="text-4xl font-bold font-poppins">Irfan Khan</h1>
+                <h1 className="text-4xl font-bold font-poppins"> <span className="text-blue-700">Ir</span>fan Khan</h1>
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex gap-8">
-                    <li  onClick={onHeroClick} className="cursor-pointer font-poppins hover:text-yellow-400">Home</li>
-                    <li  onClick={onProjectClick} className="cursor-pointer font-poppins hover:text-yellow-400">About</li>
-                    <li  onClick={onSkillsClick} className="cursor-pointer font-poppins hover:text-yellow-400">Projects</li>
-                    <li  onClick={onContactClick} className="cursor-pointer font-poppins hover:text-yellow-400">Contact</li>
+                    <li onClick={onHeroClick} className="cursor-pointer font-poppins hover:text-yellow-400">Home</li>
+                    <li onClick={onProjectClick} className="cursor-pointer font-poppins hover:text-yellow-400">About</li>
+                    <li onClick={onSkillsClick} className="cursor-pointer font-poppins hover:text-yellow-400">Projects</li>
+                    <li onClick={onContactClick} className="cursor-pointer font-poppins hover:text-yellow-400">Contact</li>
                 </ul>
 
                 {/* Mobile Button */}
@@ -41,10 +41,10 @@ const Navbar = ({ onHeroClick, onProjectClick ,onSkillsClick,onContactClick}) =>
                 </div>
 
                 <ul className="flex flex-col gap-6 text-xl px-6">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li onClick={onHeroClick}>Home</li>
+                    <li onClick={onProjectClick} >About</li>
+                    <li onClick={onSkillsClick} >Projects</li>
+                    <li onClick={onContactClick} >Contact</li>
                 </ul>
             </div>
         </>
