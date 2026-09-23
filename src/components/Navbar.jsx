@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-const Navbar = () => {
+const Navbar = ({ onHeroClick, onProjectClick ,onSkillsClick,onContactClick}) => {
    
     const [open, setOpen] = useState(false);
 
@@ -12,10 +12,10 @@ const Navbar = () => {
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex gap-8">
-                    <li className="cursor-pointer font-poppins hover:text-yellow-400">Home</li>
-                    <li className="cursor-pointer font-poppins hover:text-yellow-400">About</li>
-                    <li className="cursor-pointer font-poppins hover:text-yellow-400">Projects</li>
-                    <li className="cursor-pointer font-poppins hover:text-yellow-400">Contact</li>
+                    <li  onClick={onHeroClick} className="cursor-pointer font-poppins hover:text-yellow-400">Home</li>
+                    <li  onClick={onProjectClick} className="cursor-pointer font-poppins hover:text-yellow-400">About</li>
+                    <li  onClick={onSkillsClick} className="cursor-pointer font-poppins hover:text-yellow-400">Projects</li>
+                    <li  onClick={onContactClick} className="cursor-pointer font-poppins hover:text-yellow-400">Contact</li>
                 </ul>
 
                 {/* Mobile Button */}

@@ -13,25 +13,39 @@ const Main = () => {
     const ContactRef = useRef(null)
     const scrollSection = (ref) => {
         ref.current?.scrollIntoView({
-           behavior: "smooth"
-       })
-   }
-  return (
-      <>
-          <Navbar
-              onHeroClick={() => scrollSection(HeroRef)}
-              onPeojectClick={() => scrollSection(ProjectRef)}
-              onSkillsClick={() => scrollSection(SkillsRef)}
-              onContactClick={() => scrollSection(ContactRef)}
-          />
-          <Hero />
-          <Project />
-          <Skills />
-          <Contact />
+            behavior: "smooth"
+        })
+    }
+    return (
+        <>
+            <Navbar
+                onHeroClick={() => scrollSection(HeroRef)}
+                onProjectClick={() => scrollSection(ProjectRef)}
+                onSkillsClick={() => scrollSection(SkillsRef)}
+                onContactClick={() => scrollSection(ContactRef)}
+            />
+            <div ref={HeroRef}>
+
+                <Hero />
+            </div>
+            <div ref={ProjectRef}>
+
+                <Project />
+            </div>
+            <div ref={SkillsRef}>
+
+                <Skills />
+
+            </div>
+            <div ref={ContactRef}>
 
 
-      </>
-  )
+                <Contact />
+            </div>
+
+
+        </>
+    )
 }
 
 export default Main
